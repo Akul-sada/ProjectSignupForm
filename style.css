@@ -28,9 +28,98 @@ section.form img{
 div.image{
     flex: 0 0 25%;
 }
+form p{
+    padding-left: 1.2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
 div.form-container{
     flex: 1 1 auto;
     background-color: #fff;
     height: 100%;
+}
+div.form-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+p{
+    color: #666;
+}
+p.text{
+    max-width: 30rem;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 2;
+}
+p.you-know-text{
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+p.lets-do{
+    padding: 2rem;
+}
+div.form-container div.text-container{
+    /* set flex item 25% of another */
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 2rem;
+    /* border: 2px solid red; */
+}
+div.form-container form{
+    /* flex item of form container */
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+div.form-container form div.input-fields{
+    flex: 0 0 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #888;
+    box-shadow: 0 2px 3px #bbb;
+    /* border: 2px solid red; */
+}
+div.input-field{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-items: center;
+    /* border: 2px solid red; */
+    padding: 1rem 1rem 2rem;
+    gap: 1rem;
+
+    
+}
+div.form-container form div.input-fields input{
+    width: 20rem;
+}
+div.button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+div.form-container div.button{
+    flex: 1 1 auto;
+    
+}
+div.button-container{
+    padding: 2rem 0 0 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+div.login-container span.account{
+    font-size: 1.5rem;
+}
+span.login{
+    font-size: 1.8rem;
 }
 
