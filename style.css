@@ -14,16 +14,28 @@ body{
     background-color: #000;
     overflow: hidden;
 }
+
+
 section.form{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+    width: 100%;
+    /* width: 100vw; */
 }
 section.form img{
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+.logo{
+    width: 7rem;
+    position: absolute;
+    z-index: 1;
+    top: 117px;
+    /* left: 44rem; */
+    left: 33%;
 }
 div.image{
     flex: 0 0 35%;
